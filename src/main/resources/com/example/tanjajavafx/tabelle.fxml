@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tanjajavafx.Controller">
+   <children>
+      <TableView fx:id="table" editable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <columns>
+            <TableColumn fx:id="columnName" prefWidth="143.33331298828125" text="Name" />
+            <TableColumn fx:id="columnLektion" prefWidth="174.66665649414062" text="Lektion" />
+            <TableColumn fx:id="columnDozent" prefWidth="146.66668701171875" text="Dozent" />
+            <TableColumn fx:id="columnObligatorisch" prefWidth="136.66668701171875" text="Obligatorisch" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
